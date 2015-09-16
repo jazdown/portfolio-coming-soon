@@ -31,7 +31,7 @@ body {
 
 .everything {
   overflow: hidden;
-  height: 100vh;
+  xheight: 100vh;
   width: 100%;
 }
 
@@ -40,9 +40,18 @@ h1 {
   font-weight: lighter;
   color: #CB8A64;
   text-align: center;
+  top: 6em;
+}
+
+.text {
+  padding: 5%;
+  position: relative;
+  bottom: 6em;
 }
 
 .portrait {
+  position: relative;
+  top: -6em;
   width: 200%;
 }
 
@@ -64,24 +73,22 @@ h1 {
   
   .portrait {
     width: 100%;
-    position: relative;
     top: -8em;
     margin: 0;
   }
   
   h1 {
     top: 0;
-    position: relative;
   }
   
   .text {
     position: relative;
-    bottom: 8em;
+    bottom: 9em;
   }
   
   .soc-med-icons a {
     position: relative;
-    bottom: 8em;
+    bottom: 12em;
   }
   
   .instagram {
