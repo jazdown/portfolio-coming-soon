@@ -48,13 +48,15 @@ body {
   padding: 5%;
   position: absolute;
   z-index: 2;
-  bottom: -1em;
+  bottom: 1em;
   color: #FFF;
 }
 
 h1 {
   text-align: center;
-  font-family: 'Francois One', sans-serif;
+  font-family: 'Anton', sans-serif;
+  font-weight: 100;
+  color: #404040;
 }
 
 .soc-med-icons {
@@ -66,30 +68,6 @@ h1 {
 }
 
 .f, .in, .be {
-  width: 20px;
+  width: 90%;
   position: absolute;
-}
-
-
-/*
-.billboard {
-  background-image: url(../images/portrait-2.png);
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-size: 110%;
-  position: relative;
-  height: 100vh;
-  top: 0;
-}
-
-.text {
-  margin: 0;
-  padding: 10%;
-  color: #00726F;
-  font-family: 'Josefin Sans', sans-serif;
-  position: absolute;
-}
-*/
-h1 {
-  color: #000;
 }
