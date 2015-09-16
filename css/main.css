@@ -21,70 +21,52 @@ html {
 }
 
 body {
+  font-family: 'Raleway', sans-serif;
+  color: #FFF;
+  text-align: center;
   overflow: hidden;
   margin: 0;
   padding: 0;
 }
 
 .everything {
-   overflow: hidden;
+  overflow: hidden;
   height: 100vh;
   width: 100%;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  font-weight: lighter;
+  color: #CB8A64;
+  text-align: center;
 }
 
 .portrait {
   width: 200%;
 }
 
-.soc-med-icons {
-  background-color: orange;
-  width: 100%;
-  list-style-type: none;
-}
-
-.soc-med-icons li {
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-  position: absolute;
-  left: 0;
-  height: 2em;
-}
-
-.facebook {
-  background-image: url("../images/facebook.svg");
-  background-repeat: no-repeat;
-  width: 10%;
-  height: 1em;
-}
-
 .instagram {
-  background-image: url("../images/instagram.svg");
-  background-repeat: no-repeat;
-  width: 10%;
-  height: 1em;
+  margin: 1em;
 }
 
-.behance {
-  background-image: url("../images/behance.svg");
-  background-repeat: no-repeat;
-  width: 10%;
-  height: 1em;
+.soc-med-icons {
+  text-align: center;
+  font-weight: 200;
 }
 
-
-
-
-
+.soc-med-icons a {
+  text-decoration: none;
+  color: #CB8A64;
+}
 
 @media only screen and (min-width: 25em) {
   
   .portrait {
-  width: 100%;
-  position: relative;
+    width: 100%;
+    position: relative;
     top: -4em;
 }
-  
 }
 
 @media only screen and (min-width: 38em) {
