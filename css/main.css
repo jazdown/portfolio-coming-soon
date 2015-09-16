@@ -60,14 +60,11 @@ h1 {
 }
 
 .soc-med-icons {
-  display: block;
   float: left;
   position: relative;
-  bottom: 10;
   z-index: 1;
 }
 
-.f, .in, .be {
-  width: 90%;
-  position: absolute;
+.icon {
+  width: 30%;
 }
