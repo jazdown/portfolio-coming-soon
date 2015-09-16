@@ -25,7 +25,6 @@ body {
   overflow: hidden;
   margin: 0;
   padding: 0;
-  position: relative;
 }
 
 .portrait {
@@ -39,7 +38,12 @@ body {
   bottom: 0;
 }
 
+.content-box {
+  position: relative;
+}
+
 .text {
+  position: relative;
   padding-top: 22em;
   text-align: center;
   z-index: 2;
@@ -60,11 +64,36 @@ h1 {
   text-align: center;
   bottom: -4em;
   position: relative;
-  display: inline-block;
+  display: block;
   z-index: 1;
 }
 
 .icon {
   width: 15%;
   padding: 1%;
+  
+}
+
+@media only screen and (min-width: 25em) {
+    
+  .portrait{
+    height: 30em;
+  }
+  
+  .soc-med-icons {
+    text-align: right; 
+    right: 20px;
+    top: 0;
+  }
+  
+  .icon {
+    width: 10%;
+  }
+  
+  .text {
+    display: block;
+    top: 8.75em;
+    padding-left: 20px;
+  }
+    
 }
