@@ -65,8 +65,28 @@ h1 {
   .portrait {
     width: 100%;
     position: relative;
-    top: -4em;
-}
+    top: -8em;
+    margin: 0;
+  }
+  
+  h1 {
+    top: 0;
+    position: relative;
+  }
+  
+  .text {
+    position: relative;
+    bottom: 8em;
+  }
+  
+  .soc-med-icons a {
+    position: relative;
+    bottom: 8em;
+  }
+  
+  .instagram {
+    margin: 3em;
+  }
 }
 
 @media only screen and (min-width: 38em) {
