@@ -69,11 +69,11 @@ h1 {
   color: #CB8A64;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 20em) {
   
   .portrait {
     width: 100%;
-    top: -8em;
+    top: -12em;
     margin: 0;
   }
   
@@ -83,12 +83,12 @@ h1 {
   
   .text {
     position: relative;
-    bottom: 9em;
+    bottom: 12em;
   }
   
   .soc-med-icons a {
     position: relative;
-    bottom: 12em;
+    top: -15em;
   }
   
   .instagram {
