@@ -50,12 +50,12 @@ h1 {
 
 .portrait {
   position: relative;
-  top: 0;
-  width: 200%;
+  width: 100%;
 }
 
 .instagram {
-  margin: 0.25em;
+  padding: 10px;
+  margin: 0em;
 }
 
 .soc-med-icons {
