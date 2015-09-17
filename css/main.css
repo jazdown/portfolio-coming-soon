@@ -12,7 +12,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   
-  background-color: #303030;
+  background-color: #202020;
 
 }
 
@@ -45,17 +45,17 @@ h1 {
 .text {
   padding: 5%;
   position: relative;
-  bottom: 6em;
+  bottom: -1em;
 }
 
 .portrait {
   position: relative;
-  top: -6em;
+  top: 0;
   width: 200%;
 }
 
 .instagram {
-  margin: 1em;
+  margin: 0.25em;
 }
 
 .soc-med-icons {
@@ -69,7 +69,7 @@ h1 {
   color: #CB8A64;
 }
 
-@media only screen and (min-width: 20em) {
+@media only screen and (min-width: 22em) {
   
   .portrait {
     width: 100%;
@@ -88,7 +88,7 @@ h1 {
   
   .soc-med-icons a {
     position: relative;
-    top: -15em;
+    top: -16em;
   }
   
   .instagram {
