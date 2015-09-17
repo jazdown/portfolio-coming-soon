@@ -73,7 +73,7 @@ h1 {
   
   .portrait {
     width: 100%;
-    top: -12em;
+    top: -5em;
     margin: 0;
   }
   
@@ -83,32 +83,32 @@ h1 {
   
   .text {
     position: relative;
-    bottom: 14em;
+    bottom: 6em;
   }
   
   .soc-med-icons a {
     position: relative;
-    top: -22em;
+    top: -11em;
   }
   
   .instagram {
-    margin: 3em;
+    margin: 2em;
   }
 }
 
 @media only screen and (min-width: 38em) {
   
   .portrait {
-    width: 200%;
+    width: 130%;
     top: -8em;
   }
   
   .text {
-    bottom: -2em;
+    bottom: 6em;
   }
   
   .soc-med-icons a {
-    top: 5.25em;
+    top: -6em;
   }
   
   .instagram {
@@ -120,7 +120,7 @@ h1 {
 @media only screen and (min-width: 60em) {
   
   .portrait {
-    width: 140%;
+    width: 120%;
     top: -16em;
   }
   
