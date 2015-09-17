@@ -100,7 +100,7 @@ h1 {
   
   .portrait {
     width: 200%;
-    top: 0;
+    top: -8em;
   }
   
   .text {
@@ -121,7 +121,7 @@ h1 {
   
   .portrait {
     width: 140%;
-    top: -10em;
+    top: -16em;
   }
   
   .text {
@@ -145,6 +145,7 @@ h1 {
   
   .portrait {
     width: 120%;
+    top: -18em;
   }
   
   .soc-med-icons a {
